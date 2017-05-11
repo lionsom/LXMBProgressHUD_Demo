@@ -10,7 +10,7 @@ https://github.com/jdg/MBProgressHUD<br>
 ```
 [MBProgressHUD showSuccess:@"加载成功"];
 ```
-![image](https://github.com/lionsom/LXLaunchGuidePods/blob/master/LXMBProgressHUD_Demo/showImage/fail.png)
+![image](https://github.com/lionsom/LXLaunchGuidePods/blob/master/showImage/fail.png)
 ## 失败
 ```
 [MBProgressHUD showError:@"加载失败"];
