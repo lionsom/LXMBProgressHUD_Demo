@@ -1,0 +1,6 @@
+framework module Pods_LXMBProgressHUD_Demo {
+  umbrella header "Pods-LXMBProgressHUD_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
