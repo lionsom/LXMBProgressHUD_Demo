@@ -27,14 +27,14 @@
 - (IBAction)AAA:(id)sender {
     NSLog(@"点击了");
     
-    [MBProgressHUD showSuccess:@"成功了 啊啊啊啊"];
+    [MBProgressHUD showSuccess:@"加载成功"];
 }
 - (IBAction)fail:(id)sender {
-    [MBProgressHUD showError:@"失败了！！！！"];
+    [MBProgressHUD showError:@"加载失败"];
 }
 
 - (IBAction)wait:(id)sender {
-    [MBProgressHUD showMessage:@"了快捷方式立刻就爱上第六空"];
+    [MBProgressHUD showMessage:@"正在加载..."];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [MBProgressHUD hideHUD];
